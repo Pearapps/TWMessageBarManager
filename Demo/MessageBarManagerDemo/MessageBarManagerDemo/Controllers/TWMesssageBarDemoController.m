@@ -56,7 +56,7 @@ static UIColor *kTWMesssageBarDemoControllerButtonColor = nil;
 - (void)loadView
 {
     [super loadView];
-    
+    [[TWMessageBarManager sharedInstance] setAllowsPanning:YES];
     self.view.backgroundColor = [UIColor whiteColor];
     
     CGFloat xOffset = kTWMesssageBarDemoControllerButtonPadding;

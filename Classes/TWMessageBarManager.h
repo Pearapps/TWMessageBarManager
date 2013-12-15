@@ -70,6 +70,10 @@ typedef enum {
  */
 - (void)hideAll;
 
+// panning
+@property (nonatomic, assign) BOOL allowsPanning;
+
+
 @end
 
 @interface TWMessageBarStyleSheet : NSObject
